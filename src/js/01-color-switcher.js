@@ -14,11 +14,12 @@ refs.btnStop.addEventListener('click', onBtnStopChangeColor);
 function onBtnStartChangeColor() {
   refs.btnStart.disabled = true;
   refs.btnStop.disabled = false;
-}
+
 
 idInterval = setInterval(() => {
   refs.body.style.backgroundColor = getRandomHexColor();
 }, CHANGE_COLOR_DELAY);
+}
 
 function onBtnStopChangeColor() {
   refs.btnStart.disabled = false;
