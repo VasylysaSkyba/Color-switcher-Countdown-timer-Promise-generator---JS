@@ -9,6 +9,7 @@ const daysLabel = document.querySelector('span[data-days]');
 const hoursLabel = document.querySelector('span[data-hours]');
 const minutesLabel = document.querySelector('span[data-minutes]');
 const secondsLabel = document.querySelector('span[data-seconds]');
+let timerId = null;
 
 startBtn.disabled = true;
 
