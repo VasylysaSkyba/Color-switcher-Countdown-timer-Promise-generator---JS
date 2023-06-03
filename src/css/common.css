@@ -15,4 +15,17 @@ body {
 img {
   display: block;
   max-width: 100%;
+  
 }
+
+.timer {
+display: flex;
+}
+.field {
+  padding: 5px;
+}
+
+.label {
+  display: flex;
+}
+
